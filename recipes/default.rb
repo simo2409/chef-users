@@ -24,7 +24,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-node[:users][:users].each do |username|
+node['users']['users'].each do |username|
   Chef::Log.debug("Creating #{username.inspect}")
   
   # Create user
