@@ -22,8 +22,8 @@ keys to every created user.
   "users": ["user1", "user2"],
   "create_ssh_keys": true,
   "ssh_keys_to_add": [
-    'ssh-rsa ABC..',
-    'ssh-rsa ABD..'
+    "ssh-rsa ABC..",
+    "ssh-rsa ABD.."
   ]
 },
 ```
